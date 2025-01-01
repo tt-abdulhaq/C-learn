@@ -1,8 +1,9 @@
-#include <fib.h>
+#include "fib.h"
 
 int fib(int n) {
-	if( n <= 1 ) {
-		return n;
-	}
-	return fib(n-1) * fib(n-2);
+    if (n <= 1) {
+        return n;
+    }
+    return fib(n - 1) + fib(n - 2); // Fix: Use addition, not multiplication.
 }
+

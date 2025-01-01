@@ -2,4 +2,5 @@
 #define FIB_H
 
 int fib(int n);
-#endif
+
+#endif // FIB_H
